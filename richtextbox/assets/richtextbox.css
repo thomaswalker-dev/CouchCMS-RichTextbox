@@ -1,0 +1,65 @@
+div[data-role="rtb-option"]{
+    display: inline-block;
+    background-color: #fff;
+    width: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+    color: #adadad;
+}
+
+div[data-role="rtb-option"]:hover{
+    color: #000;
+    border-color: #999;
+    cursor: pointer;
+}
+
+.richtextbox-editor{
+    float: left;
+    background-color: #eeeeee;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 1px solid #ced4da;
+    border-color: #c0c0c0;
+    border-bottom: none;
+}
+
+.richtextbox-box{
+    max-height: 70px;
+    width: 100%;
+}
+
+.richtextbox-box p{
+    display: inline-block;
+    -webkit-appearance: none;
+    max-width: 100%;
+    height: 38px;
+    padding: 8px;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    background-color: #fcfcfc;
+    color: #444;
+    font-family: inherit;
+    font-size: 14px;
+    box-shadow: none;
+    width: 100%;
+    cursor: text;
+    border-top-left-radius: 0px;
+}
+
+.richtextbox-box p:focus{
+    outline: none;
+    background-color: #fff;
+    border-color: rgba(105,75,60,.6);
+    box-shadow: 0 0 4px rgba(180,135,95,.6);
+}
+
+.richtextbox-box p:hover{
+    border-color: #999;
+}

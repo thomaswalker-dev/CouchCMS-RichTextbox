@@ -1,0 +1,8 @@
+.richtextbox-box p:hover{
+    border-color: #999;
+}
+.richtextbox-box p:focus{
+    border-color: #547ca596;
+    outline: 0;
+    box-shadow: 0 0 4px #007bff1f;
+}
